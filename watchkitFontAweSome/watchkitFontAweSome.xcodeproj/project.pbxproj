@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A08F8171A61489100B2A91D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08F8161A61489100B2A91D /* main.m */; };
+		5A08F81A1A61489100B2A91D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08F8191A61489100B2A91D /* AppDelegate.m */; };
+		5A08F81D1A61489100B2A91D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08F81C1A61489100B2A91D /* ViewController.m */; };
+		5A08F8201A61489100B2A91D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A08F81E1A61489100B2A91D /* Main.storyboard */; };
+		5A08F8221A61489100B2A91D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A08F8211A61489100B2A91D /* Images.xcassets */; };
+		5A08F8251A61489100B2A91D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A08F8231A61489100B2A91D /* LaunchScreen.xib */; };
+		5A08F8311A61489100B2A91D /* watchkitFontAweSomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08F8301A61489100B2A91D /* watchkitFontAweSomeTests.m */; };
+		5A08F8411A61489E00B2A91D /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A08F8401A61489E00B2A91D /* WatchKit.framework */; };
+		5A08F8481A61489E00B2A91D /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08F8471A61489E00B2A91D /* InterfaceController.m */; };
+		5A08F84B1A61489E00B2A91D /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08F84A1A61489E00B2A91D /* NotificationController.m */; };
+		5A08F84D1A61489E00B2A91D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A08F84C1A61489E00B2A91D /* Images.xcassets */; };
+		5A08F8511A61489E00B2A91D /* watchkitFontAweSome Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 5A08F8501A61489E00B2A91D /* watchkitFontAweSome Watch App.app */; };
+		5A08F8581A61489E00B2A91D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A08F8571A61489E00B2A91D /* Interface.storyboard */; };
+		5A08F85A1A61489E00B2A91D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A08F8591A61489E00B2A91D /* Images.xcassets */; };
+		5A08F85D1A61489E00B2A91D /* watchkitFontAweSome WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5A08F83E1A61489E00B2A91D /* watchkitFontAweSome WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5A08F86B1A6148E000B2A91D /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A08F8661A6148E000B2A91D /* FontAwesome.ttf */; };
+		5A08F86C1A6148E000B2A91D /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08F8681A6148E000B2A91D /* NSString+FontAwesome.m */; };
+		5A08F86D1A6148E000B2A91D /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08F8681A6148E000B2A91D /* NSString+FontAwesome.m */; };
+		5A08F86F1A614EAD00B2A91D /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A08F8661A6148E000B2A91D /* FontAwesome.ttf */; };
+		5A08F8701A6155AC00B2A91D /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A08F8661A6148E000B2A91D /* FontAwesome.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A08F82B1A61489100B2A91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A08F8091A61489100B2A91D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A08F8101A61489100B2A91D;
+			remoteInfo = watchkitFontAweSome;
+		};
+		5A08F8521A61489E00B2A91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A08F8091A61489100B2A91D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A08F84F1A61489E00B2A91D;
+			remoteInfo = "watchkitFontAweSome Watch App";
+		};
+		5A08F85B1A61489E00B2A91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A08F8091A61489100B2A91D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A08F83D1A61489E00B2A91D;
+			remoteInfo = "watchkitFontAweSome WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5A08F8641A61489E00B2A91D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5A08F85D1A61489E00B2A91D /* watchkitFontAweSome WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5A08F8111A61489100B2A91D /* watchkitFontAweSome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchkitFontAweSome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A08F8151A61489100B2A91D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A08F8161A61489100B2A91D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A08F8181A61489100B2A91D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A08F8191A61489100B2A91D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A08F81B1A61489100B2A91D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A08F81C1A61489100B2A91D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A08F81F1A61489100B2A91D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A08F8211A61489100B2A91D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A08F8241A61489100B2A91D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5A08F82A1A61489100B2A91D /* watchkitFontAweSomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watchkitFontAweSomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A08F82F1A61489100B2A91D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A08F8301A61489100B2A91D /* watchkitFontAweSomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = watchkitFontAweSomeTests.m; sourceTree = "<group>"; };
+		5A08F83E1A61489E00B2A91D /* watchkitFontAweSome WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchkitFontAweSome WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A08F8401A61489E00B2A91D /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		5A08F8441A61489E00B2A91D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A08F8451A61489E00B2A91D /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		5A08F8461A61489E00B2A91D /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		5A08F8471A61489E00B2A91D /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		5A08F8491A61489E00B2A91D /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		5A08F84A1A61489E00B2A91D /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		5A08F84C1A61489E00B2A91D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A08F8501A61489E00B2A91D /* watchkitFontAweSome Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchkitFontAweSome Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A08F8561A61489E00B2A91D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A08F8571A61489E00B2A91D /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		5A08F8591A61489E00B2A91D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A08F8661A6148E000B2A91D /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		5A08F8671A6148E000B2A91D /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		5A08F8681A6148E000B2A91D /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A08F80E1A61489100B2A91D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A08F8271A61489100B2A91D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A08F83B1A61489E00B2A91D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A08F8411A61489E00B2A91D /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A08F8081A61489100B2A91D = {
+			isa = PBXGroup;
+			children = (
+				5A08F8131A61489100B2A91D /* watchkitFontAweSome */,
+				5A08F82D1A61489100B2A91D /* watchkitFontAweSomeTests */,
+				5A08F8421A61489E00B2A91D /* watchkitFontAweSome WatchKit Extension */,
+				5A08F8541A61489E00B2A91D /* watchkitFontAweSome Watch App */,
+				5A08F83F1A61489E00B2A91D /* Frameworks */,
+				5A08F8121A61489100B2A91D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A08F8121A61489100B2A91D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A08F8111A61489100B2A91D /* watchkitFontAweSome.app */,
+				5A08F82A1A61489100B2A91D /* watchkitFontAweSomeTests.xctest */,
+				5A08F83E1A61489E00B2A91D /* watchkitFontAweSome WatchKit Extension.appex */,
+				5A08F8501A61489E00B2A91D /* watchkitFontAweSome Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A08F8131A61489100B2A91D /* watchkitFontAweSome */ = {
+			isa = PBXGroup;
+			children = (
+				5A08F8181A61489100B2A91D /* AppDelegate.h */,
+				5A08F8191A61489100B2A91D /* AppDelegate.m */,
+				5A08F81B1A61489100B2A91D /* ViewController.h */,
+				5A08F81C1A61489100B2A91D /* ViewController.m */,
+				5A08F81E1A61489100B2A91D /* Main.storyboard */,
+				5A08F8211A61489100B2A91D /* Images.xcassets */,
+				5A08F8231A61489100B2A91D /* LaunchScreen.xib */,
+				5A08F8141A61489100B2A91D /* Supporting Files */,
+			);
+			path = watchkitFontAweSome;
+			sourceTree = "<group>";
+		};
+		5A08F8141A61489100B2A91D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A08F8151A61489100B2A91D /* Info.plist */,
+				5A08F8161A61489100B2A91D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A08F82D1A61489100B2A91D /* watchkitFontAweSomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A08F8301A61489100B2A91D /* watchkitFontAweSomeTests.m */,
+				5A08F82E1A61489100B2A91D /* Supporting Files */,
+			);
+			path = watchkitFontAweSomeTests;
+			sourceTree = "<group>";
+		};
+		5A08F82E1A61489100B2A91D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A08F82F1A61489100B2A91D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A08F83F1A61489E00B2A91D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A08F8401A61489E00B2A91D /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A08F8421A61489E00B2A91D /* watchkitFontAweSome WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5A08F8651A6148C300B2A91D /* FontAwesome */,
+				5A08F8461A61489E00B2A91D /* InterfaceController.h */,
+				5A08F8471A61489E00B2A91D /* InterfaceController.m */,
+				5A08F8491A61489E00B2A91D /* NotificationController.h */,
+				5A08F84A1A61489E00B2A91D /* NotificationController.m */,
+				5A08F84C1A61489E00B2A91D /* Images.xcassets */,
+				5A08F8431A61489E00B2A91D /* Supporting Files */,
+			);
+			path = "watchkitFontAweSome WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5A08F8431A61489E00B2A91D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A08F8441A61489E00B2A91D /* Info.plist */,
+				5A08F8451A61489E00B2A91D /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A08F8541A61489E00B2A91D /* watchkitFontAweSome Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				5A08F8571A61489E00B2A91D /* Interface.storyboard */,
+				5A08F8591A61489E00B2A91D /* Images.xcassets */,
+				5A08F8551A61489E00B2A91D /* Supporting Files */,
+			);
+			path = "watchkitFontAweSome Watch App";
+			sourceTree = "<group>";
+		};
+		5A08F8551A61489E00B2A91D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A08F8561A61489E00B2A91D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A08F8651A6148C300B2A91D /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				5A08F8661A6148E000B2A91D /* FontAwesome.ttf */,
+				5A08F8671A6148E000B2A91D /* NSString+FontAwesome.h */,
+				5A08F8681A6148E000B2A91D /* NSString+FontAwesome.m */,
+			);
+			name = FontAwesome;
+			path = "../watchkitFontAweSome Watch App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A08F8101A61489100B2A91D /* watchkitFontAweSome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A08F8341A61489100B2A91D /* Build configuration list for PBXNativeTarget "watchkitFontAweSome" */;
+			buildPhases = (
+				5A08F80D1A61489100B2A91D /* Sources */,
+				5A08F80E1A61489100B2A91D /* Frameworks */,
+				5A08F80F1A61489100B2A91D /* Resources */,
+				5A08F8641A61489E00B2A91D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A08F85C1A61489E00B2A91D /* PBXTargetDependency */,
+			);
+			name = watchkitFontAweSome;
+			productName = watchkitFontAweSome;
+			productReference = 5A08F8111A61489100B2A91D /* watchkitFontAweSome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A08F8291A61489100B2A91D /* watchkitFontAweSomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A08F8371A61489100B2A91D /* Build configuration list for PBXNativeTarget "watchkitFontAweSomeTests" */;
+			buildPhases = (
+				5A08F8261A61489100B2A91D /* Sources */,
+				5A08F8271A61489100B2A91D /* Frameworks */,
+				5A08F8281A61489100B2A91D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A08F82C1A61489100B2A91D /* PBXTargetDependency */,
+			);
+			name = watchkitFontAweSomeTests;
+			productName = watchkitFontAweSomeTests;
+			productReference = 5A08F82A1A61489100B2A91D /* watchkitFontAweSomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A08F83D1A61489E00B2A91D /* watchkitFontAweSome WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A08F8611A61489E00B2A91D /* Build configuration list for PBXNativeTarget "watchkitFontAweSome WatchKit Extension" */;
+			buildPhases = (
+				5A08F83A1A61489E00B2A91D /* Sources */,
+				5A08F83B1A61489E00B2A91D /* Frameworks */,
+				5A08F83C1A61489E00B2A91D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A08F8531A61489E00B2A91D /* PBXTargetDependency */,
+			);
+			name = "watchkitFontAweSome WatchKit Extension";
+			productName = "watchkitFontAweSome WatchKit Extension";
+			productReference = 5A08F83E1A61489E00B2A91D /* watchkitFontAweSome WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		5A08F84F1A61489E00B2A91D /* watchkitFontAweSome Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A08F85E1A61489E00B2A91D /* Build configuration list for PBXNativeTarget "watchkitFontAweSome Watch App" */;
+			buildPhases = (
+				5A08F84E1A61489E00B2A91D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchkitFontAweSome Watch App";
+			productName = "watchkitFontAweSome Watch App";
+			productReference = 5A08F8501A61489E00B2A91D /* watchkitFontAweSome Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A08F8091A61489100B2A91D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "JAVIER CALATRAVA LLAVERIA";
+				TargetAttributes = {
+					5A08F8101A61489100B2A91D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5A08F8291A61489100B2A91D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 5A08F8101A61489100B2A91D;
+					};
+					5A08F83D1A61489E00B2A91D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5A08F84F1A61489E00B2A91D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 5A08F80C1A61489100B2A91D /* Build configuration list for PBXProject "watchkitFontAweSome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A08F8081A61489100B2A91D;
+			productRefGroup = 5A08F8121A61489100B2A91D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A08F8101A61489100B2A91D /* watchkitFontAweSome */,
+				5A08F8291A61489100B2A91D /* watchkitFontAweSomeTests */,
+				5A08F83D1A61489E00B2A91D /* watchkitFontAweSome WatchKit Extension */,
+				5A08F84F1A61489E00B2A91D /* watchkitFontAweSome Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A08F80F1A61489100B2A91D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A08F86F1A614EAD00B2A91D /* FontAwesome.ttf in Resources */,
+				5A08F8201A61489100B2A91D /* Main.storyboard in Resources */,
+				5A08F8251A61489100B2A91D /* LaunchScreen.xib in Resources */,
+				5A08F8221A61489100B2A91D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A08F8281A61489100B2A91D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A08F83C1A61489E00B2A91D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A08F8701A6155AC00B2A91D /* FontAwesome.ttf in Resources */,
+				5A08F84D1A61489E00B2A91D /* Images.xcassets in Resources */,
+				5A08F8511A61489E00B2A91D /* watchkitFontAweSome Watch App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A08F84E1A61489E00B2A91D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A08F8581A61489E00B2A91D /* Interface.storyboard in Resources */,
+				5A08F85A1A61489E00B2A91D /* Images.xcassets in Resources */,
+				5A08F86B1A6148E000B2A91D /* FontAwesome.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A08F80D1A61489100B2A91D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A08F86C1A6148E000B2A91D /* NSString+FontAwesome.m in Sources */,
+				5A08F81D1A61489100B2A91D /* ViewController.m in Sources */,
+				5A08F81A1A61489100B2A91D /* AppDelegate.m in Sources */,
+				5A08F8171A61489100B2A91D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A08F8261A61489100B2A91D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A08F8311A61489100B2A91D /* watchkitFontAweSomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A08F83A1A61489E00B2A91D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A08F84B1A61489E00B2A91D /* NotificationController.m in Sources */,
+				5A08F8481A61489E00B2A91D /* InterfaceController.m in Sources */,
+				5A08F86D1A6148E000B2A91D /* NSString+FontAwesome.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A08F82C1A61489100B2A91D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A08F8101A61489100B2A91D /* watchkitFontAweSome */;
+			targetProxy = 5A08F82B1A61489100B2A91D /* PBXContainerItemProxy */;
+		};
+		5A08F8531A61489E00B2A91D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A08F84F1A61489E00B2A91D /* watchkitFontAweSome Watch App */;
+			targetProxy = 5A08F8521A61489E00B2A91D /* PBXContainerItemProxy */;
+		};
+		5A08F85C1A61489E00B2A91D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A08F83D1A61489E00B2A91D /* watchkitFontAweSome WatchKit Extension */;
+			targetProxy = 5A08F85B1A61489E00B2A91D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A08F81E1A61489100B2A91D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A08F81F1A61489100B2A91D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A08F8231A61489100B2A91D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A08F8241A61489100B2A91D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A08F8321A61489100B2A91D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A08F8331A61489100B2A91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A08F8351A61489100B2A91D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = watchkitFontAweSome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A08F8361A61489100B2A91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = watchkitFontAweSome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A08F8381A61489100B2A91D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = watchkitFontAweSomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchkitFontAweSome.app/watchkitFontAweSome";
+			};
+			name = Debug;
+		};
+		5A08F8391A61489100B2A91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = watchkitFontAweSomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchkitFontAweSome.app/watchkitFontAweSome";
+			};
+			name = Release;
+		};
+		5A08F85F1A61489E00B2A91D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = watchkitFontAweSome_WatchKit_Extension;
+				INFOPLIST_FILE = "watchkitFontAweSome Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		5A08F8601A61489E00B2A91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = watchkitFontAweSome_WatchKit_Extension;
+				INFOPLIST_FILE = "watchkitFontAweSome Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		5A08F8621A61489E00B2A91D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "watchkitFontAweSome WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5A08F8631A61489E00B2A91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "watchkitFontAweSome WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A08F80C1A61489100B2A91D /* Build configuration list for PBXProject "watchkitFontAweSome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A08F8321A61489100B2A91D /* Debug */,
+				5A08F8331A61489100B2A91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A08F8341A61489100B2A91D /* Build configuration list for PBXNativeTarget "watchkitFontAweSome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A08F8351A61489100B2A91D /* Debug */,
+				5A08F8361A61489100B2A91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A08F8371A61489100B2A91D /* Build configuration list for PBXNativeTarget "watchkitFontAweSomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A08F8381A61489100B2A91D /* Debug */,
+				5A08F8391A61489100B2A91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A08F85E1A61489E00B2A91D /* Build configuration list for PBXNativeTarget "watchkitFontAweSome Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A08F85F1A61489E00B2A91D /* Debug */,
+				5A08F8601A61489E00B2A91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A08F8611A61489E00B2A91D /* Build configuration list for PBXNativeTarget "watchkitFontAweSome WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A08F8621A61489E00B2A91D /* Debug */,
+				5A08F8631A61489E00B2A91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A08F8091A61489100B2A91D /* Project object */;
+}
